@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'multi',
 	aliases: [],
-	description: 'Multiply two numbers!',
+	description: 'Multiply two numbers.',
 	cooldown: 5,
 	guildOnly: true,
 	args: true,

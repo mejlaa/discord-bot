@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'divi',
 	aliases: [],
-	description: 'Divide two numbers!',
+	description: 'Divide two numbers.',
 	cooldown: 5,
 	guildOnly: true,
 	args: true,

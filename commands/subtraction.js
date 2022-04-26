@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'sub',
 	aliases: [],
-	description: 'Subtract two numbers!',
+	description: 'Subtract two numbers.s',
 	cooldown: 5,
 	guildOnly: true,
 	args: true,

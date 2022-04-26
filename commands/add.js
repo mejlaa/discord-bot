@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'add',
 	aliases: [],
-	description: 'Add two numbers!',
+	description: 'Add two numbers.',
 	cooldown: 5,
 	guildOnly: true,
 	args: true,

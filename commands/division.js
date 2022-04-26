@@ -1,7 +1,7 @@
 module.exports = {
-	name: 'add',
+	name: 'divi',
 	aliases: [],
-	description: 'Add two numbers!',
+	description: 'Divide two numbers!',
 	cooldown: 5,
 	guildOnly: true,
 	args: true,
@@ -14,6 +14,6 @@ module.exports = {
         var a = parseInt(args[0]);
         var b = parseInt(args[1]);
 
-        msg.reply(`Result of two numbers is ${a + b}`);
+        msg.reply(`Result of two numbers is ${a / b}`);
 	},
 };

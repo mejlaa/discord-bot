@@ -9,6 +9,8 @@ bot.commands = new Discord.Collection();
 const cooldowns = new Discord.Collection();
 const botCommands = require('./commands');
 
+
+
 mapCommands();
 
 bot.login(token);

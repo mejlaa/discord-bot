@@ -14,6 +14,12 @@ module.exports = {
         var a = parseInt(args[0]);
         var b = parseInt(args[1]);
 
+        console.log(msg);
+
+        if (args.length < 2) {
+            return msg.reply("You didnt provide 2 arguments.")
+        }
+
         msg.reply(`Result of two numbers is ${a + b}`);
 	},
 };
